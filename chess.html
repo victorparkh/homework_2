@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Chessboard</title>
+</head>
+<body>
+    <div class="wrapper">
+<!--Первая строка (буквы)-->
+        <div class="letters">
+            <div class="side"></div>
+            <div class="line">
+                <div class="letter">A</div>
+                <div class="letter">B</div>
+                <div class="letter">C</div>
+                <div class="letter">D</div>
+                <div class="letter">E</div>
+                <div class="letter">F</div>
+                <div class="letter">G</div>
+                <div class="letter">H</div>
+            </div>
+            <div class="side"></div>
+        </div>
+<!--Вторая строка-->
+            <div class="row">
+                <div class="side">
+                    <p>8</p>
+                </div>
+                <div class="line">
+                    <div class="cell border_top border_left">
+                        <img src="imgs/rok_b.png">
+                    </div>
+                    <div class="cell brown border_top">
+                        <img src="imgs/horse_b.png">
+                    </div>
+                    <div class="cell border_top">
+                        <img src="imgs/bishop_b.png">
+                    </div>
+                    <div class="cell brown border_top">
+                        <img src="imgs/queen_b.png">
+                    </div>
+                    <div class="cell border_top">
+                        <img src="imgs/king_b.png">
+                    </div>
+                    <div class="cell brown border_top">
+                        <img src="imgs/bishop_b.png">
+                    </div>
+                    <div class="cell border_top">
+                        <img src="imgs/horse_b.png">
+                    </div>
+                    <div class="cell brown border_top border_right">
+                        <img src="imgs/rok_b.png">
+                    </div>
+                </div>
+                <div class="side">
+                    <p>8</p>
+                </div>
+            </div>
+<!--Третья строка-->
+            <div class="row">
+                <div class="side">
+                    <p>7</p>
+                </div>
+                <div class="line">
+                    <div class="cell brown border_left">
+                        <img src="imgs/pawn_b.png">
+                    </div>
+                    <div class="cell">
+                        <img src="imgs/pawn_b.png">
+                    </div>
+                    <div class="cell brown">
+                        <img src="imgs/pawn_b.png">
+                    </div>
+                    <div class="cell">
+                        <img src="imgs/pawn_b.png">
+                    </div>
+                    <div class="cell brown">
+                        <img src="imgs/pawn_b.png">
+                    </div>
+                    <div class="cell">
+                        <img src="imgs/pawn_b.png">
+                    </div>
+                    <div class="cell brown">
+                        <img src="imgs/pawn_b.png">
+                    </div>
+                    <div class="cell border_right">
+                        <img src="imgs/pawn_b.png">
+                    </div>
+                </div>
+                <div class="side">
+                    <p>7</p>
+                </div>
+            </div>
+<!--Четвертая строка-->
+            <div class="row">
+                <div class="side">
+                    <p>6</p>
+                </div>
+                <div class="line">
+                    <div class="cell border_left"></div>
+                    <div class="cell brown"></div>
+                    <div class="cell"></div>
+                    <div class="cell brown"></div>
+                    <div class="cell"></div>
+                    <div class="cell brown"></div>
+                    <div class="cell"></div>
+                    <div class="cell brown border_right"></div>
+                </div>
+                <div class="side">
+                    <p>6</p>
+                </div>
+            </div>
+<!--Пятая строка-->
+            <div class="row">
+                <div class="side">
+                    <p>5</p>
+                </div>
+                <div class="line">
+                    <div class="cell brown border_left"></div>
+                    <div class="cell"></div>
+                    <div class="cell brown"></div>
+                    <div class="cell"></div>
+                    <div class="cell brown"></div>
+                    <div class="cell"></div>
+                    <div class="cell brown"></div>
+                    <div class="cell border_right"></div>
+                </div>
+                <div class="side">
+                    <p>5</p>
+                </div>
+            </div> 
+<!--Шестая строка-->
+            <div class="row">
+                <div class="side">
+                    <p>4</p>
+                </div>
+                <div class="line">
+                    <div class="cell border_left"></div>
+                    <div class="cell brown"></div>
+                    <div class="cell"></div>
+                    <div class="cell brown"></div>
+                    <div class="cell"></div>
+                    <div class="cell brown"></div>
+                    <div class="cell"></div>
+                    <div class="cell brown border_right"></div>
+                </div>
+                <div class="side">
+                    <p>4</p>
+                </div>
+            </div>
+<!--Седьмая строка-->
+            <div class="row">
+                <div class="side">
+                    <p>3</p>
+                </div>
+                <div class="line">
+                    <div class="cell brown border_left"></div>
+                    <div class="cell"></div>
+                    <div class="cell brown"></div>
+                    <div class="cell"></div>
+                    <div class="cell brown"></div>
+                    <div class="cell"></div>
+                    <div class="cell brown"></div>
+                    <div class="cell border_right"></div>
+                </div>
+                <div class="side">
+                    <p>3</p>
+                </div>
+<!--Восьмая строка-->
+            </div> <div class="row">
+                <div class="side">
+                    <p>2</p>
+                </div>
+                <div class="line">
+                    <div class="cell border_left">
+                        <img src="imgs/pawn_w.png">
+                    </div>
+                    <div class="cell brown">
+                        <img src="imgs/pawn_w.png">
+                    </div>
+                    <div class="cell">
+                        <img src="imgs/pawn_w.png">
+                    </div>
+                    <div class="cell brown">
+                        <img src="imgs/pawn_w.png">
+                    </div>
+                    <div class="cell">
+                        <img src="imgs/pawn_w.png">
+                    </div>
+                    <div class="cell brown">
+                        <img src="imgs/pawn_w.png">
+                    </div>
+                    <div class="cell">
+                        <img src="imgs/pawn_w.png">
+                    </div>
+                    <div class="cell brown border_right">
+                        <img src="imgs/pawn_w.png">
+                    </div>
+                </div>
+                <div class="side">
+                    <p>2</p>
+                </div>
+            </div>
+<!--Девятая строка-->
+            <div class="row">
+                <div class="side">
+                    <p>1</p>
+                </div>
+                <div class="line ">
+                    <div class="cell brown border_bottom border_left">
+                        <img src="imgs/rok_w.png">
+                    </div>
+                    <div class="cell border_bottom">
+                        <img src="imgs/horse_w.png">
+                    </div>
+                    <div class="cell brown border_bottom">
+                        <img src="imgs/bishop_w.png">
+                    </div>
+                    <div class="cell border_bottom">
+                        <img src="imgs/queen_w.png">
+                    </div>
+                    <div class="cell brown border_bottom">
+                        <img src="imgs/king_w.png">
+                    </div>
+                    <div class="cell border_bottom">
+                        <img src="imgs/bishop_w.png">
+                    </div>
+                    <div class="cell brown border_bottom">
+                        <img src="imgs/horse_w.png">
+                    </div>
+                    <div class="cell border_bottom border_right">
+                        <img src="imgs/rok_w.png">
+                    </div>
+                </div>
+                <div class="side">
+                    <p>1</p>
+                </div>
+            </div>
+<!--Десятая строка (буквы)-->
+        <div class="letters">
+            <div class="side"></div>
+                <div class="line">
+                    <div class="letter">A</div>
+                    <div class="letter">B</div>
+                    <div class="letter">C</div>
+                    <div class="letter">D</div>
+                    <div class="letter">E</div>
+                    <div class="letter">F</div>
+                    <div class="letter">G</div>
+                    <div class="letter">H</div>
+                </div>
+            <div class="side"></div>
+        </div>
+    </div>
+
+</body>
+</html>
