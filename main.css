@@ -1,88 +1,85 @@
 .wrapper {
-    width: 90%;
-    margin: 0 auto;
-    background-color: wheat;
+  width: 90%;
+  margin: 0 auto;
+  background-color: wheat;
 }
 
-.row{
-    width: 100%;
-    font-size: 0px;
+.row {
+  width: 100%;
+  font-size: 0px;
+  background-color: aqua;
 }
 
-.cell{
-    width: 12.4%;
-    height: 120px;
-    display: inline-block;   
+.cell {
+  width: 12.4%;
+  height: 120px;
+  display: inline-block;
 }
-
 
 .brown {
-    background-color:saddlebrown;
+  background-color: saddlebrown;
 }
 
 .side {
-    width: 4.9%;
-    height: 120px;
-    display: inline-block;
-    font-size: 20px;
-    vertical-align: top;
+  width: 4.9%;
+  height: 120px;
+  display: inline-block;
+  font-size: 20px;
+  vertical-align: top;
 }
 
-.side p{
-    text-align: center;
-    margin-top: 50px;
-    color: saddlebrown;
-    font-weight: bold;
+.side p {
+  text-align: center;
+  margin-top: 50px;
+  color: saddlebrown;
+  font-weight: bold;
 }
 
-.line{
-    width: 90%;
-    display: inline-block;
+.line {
+  width: 90%;
+  display: inline-block;
 }
 
 .border_top {
-    border-top: 1px solid saddlebrown;
+  border-top: 1px solid saddlebrown;
 }
 
 .border_bottom {
-    border-bottom: 1px solid saddlebrown;
+  border-bottom: 1px solid saddlebrown;
 }
 
 .border_left {
-    border-left: 1px solid saddlebrown;
+  border-left: 1px solid saddlebrown;
 }
 
 .border_right {
-    border-right: 1px solid saddlebrown;
+  border-right: 1px solid saddlebrown;
 }
-
 
 .letters {
-    height: 50px;
-    font-size: 0px;
+  height: 50px;
+  font-size: 0px;
 }
 
-
-.cell>img {
-    width: 100%;
-    height: 100px;
-    transition: 0.3s;
-    margin-top: 10px;
-
+.cell > img {
+  width: 100%;
+  height: 100px;
+  transition: 0.3s;
+  margin-top: 10px;
 }
-.cell>img:hover {
-    width: 100%;
-    height: 100px;
-    transform: scale(1.2);
-    margin-top: 10px;
+.cell > img:hover {
+  width: 100%;
+  height: 100px;
+  transform: scale(1.2);
+  margin-top: 10px;
 }
 
 .letter {
-    width: 12.4%;
-    display: inline-block;
-    font-size: 20px;
-    text-align: center;
-    color: saddlebrown;
-    font-weight: bold;
-    padding-top: 10px;
+  width: 12.4%;
+  display: inline-block;
+  font-size: 20px;
+  text-align: center;
+  color: saddlebrown;
+  font-weight: bold;
+  padding-top: 10px;
 }
